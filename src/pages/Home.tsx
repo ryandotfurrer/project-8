@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import WeeklyCalendar from '../components/WeeklyCalendar';
 import QuickLinks from '../components/QuickLinks';
 import GetInvolved from '../components/GetInvolved';
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
 <<<<<<< HEAD
-        <h2 className="text-4xl font-bold text-gray-900 mb-4">Welcome to Our Community!</h2>
+        <h2 className="text-4xl font-bold text-gray-900 mb-4">Welcome Home!</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
 =======
         <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">Welcome to Our Community!</h2>
