@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Twitter, MessageCircle, Heart } from 'lucide-react';
 
 interface SocialPostProps {

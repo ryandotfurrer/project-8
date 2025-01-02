@@ -1,13 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-<<<<<<< HEAD
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-=======
   darkMode: 'class',
   theme: {
     extend: {
@@ -24,4 +17,3 @@ export default {
   },
   plugins: [],
 };
->>>>>>> 9d149ec (test)

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Upload } from 'lucide-react';
+
+//import { Upload } from 'lucide-react';
 import { useCarouselImages } from '../../hooks/useCarouselImages';
 import ImageUpload from '../ImageUpload';
 

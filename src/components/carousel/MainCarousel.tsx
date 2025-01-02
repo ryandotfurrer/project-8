@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-//import React, { useState, useEffect, useCallback } from 'react';
 import { useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Upload } from 'lucide-react';
 import { useCarouselImages } from '../../hooks/useCarouselImages';
 import { useAuth } from '../../hooks/useAuth';
 import { useCallback } from 'react';
 import { useState } from 'react';
-=======
-import React, { useState, useEffect, useCallback } from 'react';
-import { ChevronLeft, ChevronRight, Upload } from 'lucide-react';
-import { useCarouselImages } from '../../hooks/useCarouselImages';
-import { useAuth } from '../../hooks/useAuth';
->>>>>>> 9d149ec (test)
 import CarouselUpload from './CarouselUpload';
 
 export default function MainCarousel() {
