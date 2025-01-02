@@ -1,9 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, MessageCircle, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const QuickLinks = () => {
   return (
+    <div className="bg-white rounded-lg shadow-lg p-8 my-12">
     <div className="grid md:grid-cols-2 gap-8 my-12">
       <div className="space-y-4">
         <h3 className="text-xl font-semibold text-gray-800 mb-4">Resources</h3>
@@ -45,6 +45,7 @@ const QuickLinks = () => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

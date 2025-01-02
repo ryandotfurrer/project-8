@@ -1,4 +1,3 @@
-//import React from 'react';
 import WeeklyCalendar from '../components/WeeklyCalendar';
 import QuickLinks from '../components/QuickLinks';
 import GetInvolved from '../components/GetInvolved';
@@ -30,7 +29,7 @@ export default function Home() {
       <QuickLinks />
       <GetInvolved />
 
-      <section className="bg-indigo-50 rounded-lg p-8 my-12">
+      <section className="bg-white rounded-lg shadow-lg p-8 my-12">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Information</h2>
         <p className="text-gray-600">
           Need help? Reach out to our community team on{' '}
