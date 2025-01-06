@@ -9,7 +9,7 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center space-x-4">
-            <img src="android-chrome-512x512.png"alt="User Icon" className="w-12 h-12" />
+            <img src="/assets/android-chrome-512x512.png"alt="User Icon" className="w-12 h-12" />
               <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Torc Community Team</h1>
             </Link>
             <ThemeToggle />
