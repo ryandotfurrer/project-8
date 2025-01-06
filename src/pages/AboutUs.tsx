@@ -60,10 +60,9 @@ export default function AboutUs() {
             <img src="https://i.postimg.cc/21gNF8mj/Screenshot-2025-01-06-at-10-37-56-AM.png" alt="Ximena Cruz" className="w-20 h-20 rounded-full mb-4" />
             <p className="text-indigo-600 dark:text-indigo-400 font-semibold">Luana Bortoncello</p>
             <p className="text-gray-500 dark:text-gray-300 mb-4">Platform Evangelist</p>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">Luana is passionate about connecting people with opportunities and fostering an environment where everyone feels welcome and valued.
-</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">Luana is passionate about connecting people with opportunities and fostering an environment where everyone feels welcome and valued.</p>
             <div className="flex space-x-4">
-              <a href="https://twitter.com/ximenacruz" className="text-blue-500">Twitter</a>
+              <a href="https://twitter.com/torcdotdev" className="text-blue-500">Twitter</a>
               <a href="https://www.linkedin.com/in/luana-bortoncello/" className="text-blue-500">LinkedIn</a>
             </div>
           </div>
