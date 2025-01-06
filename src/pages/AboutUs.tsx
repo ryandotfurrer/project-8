@@ -4,8 +4,7 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Meet The Team</h1>
-        
+        <h1 className="text-4xl font-bold text-gray-900 mb-8">Meet The Team</h1>     
         <div className="grid grid-cols-2 gap-8">
           <div className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-md">
             <img src="https://i.postimg.cc/zbmXxFCQ/td.png" alt="Taylor Desseyn" className="w-20 h-20 rounded-full mb-4" />
@@ -61,14 +60,13 @@ export default function AboutUs() {
             <img src="https://i.postimg.cc/21gNF8mj/Screenshot-2025-01-06-at-10-37-56-AM.png" alt="Ximena Cruz" className="w-20 h-20 rounded-full mb-4" />
             <p className="text-indigo-600 dark:text-indigo-400 font-semibold">Luana Bortoncello</p>
             <p className="text-gray-500 dark:text-gray-300 mb-4">Platform Evangelist</p>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">Ximena is dedicated to fostering a welcoming and inclusive community environment.</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">Luana is passionate about connecting people with opportunities and fostering an environment where everyone feels welcome and valued.
+</p>
             <div className="flex space-x-4">
               <a href="https://twitter.com/ximenacruz" className="text-blue-500">Twitter</a>
               <a href="https://www.linkedin.com/in/luana-bortoncello/" className="text-blue-500">LinkedIn</a>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
