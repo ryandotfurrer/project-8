@@ -12,11 +12,12 @@ export default function Home() {
         <div className="my-11">
             <MainCarousel />
           </div>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto text-left">
-        Your career journey has its ups and downs, and we want to be your home base through it all. Building a career can feel lonely sometimes, but that's exactly why we're here – to support you during tough times and celebrate your wins.
+      <p className="text-xl text-gray-600 max-w-2xl mx-auto text-left mb-2">
+      Hey friends! Think of us as your "home base" for your career journey. We know the path can be tough and sometimes lonely, but that’s why we’re here, to have your back in the hard times and cheer you on in the good ones.💛
       </p>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto text-left">
-        When we say <b>"Welcome Home"</b>, we mean it. This is your space to find guidance and community whenever you need it. Our door is always open.
+
+      <p className="text-xl text-gray-600 max-w-2xl mx-auto text-left mb-2">
+        That’s why we say <b>Welcome Home</b>. If you ever need support, don’t hesitate to reach out. We’re so glad you’re here!
       </p>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">         Best, Taylor</p>
       </div>
