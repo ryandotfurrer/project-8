@@ -38,7 +38,7 @@ export function useCarouselImages() {
       
       // Upload to storage
       const fileName = `${userId}/${Date.now()}.${blob.type.split('/')[1]}`;
-      const { data: uploadData, error: uploadError } = await supabase.storage
+      const { error: uploadError } = await supabase.storage
         .from('carousel')
         .upload(fileName, blob);
 
