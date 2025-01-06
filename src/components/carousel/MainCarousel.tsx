@@ -28,10 +28,10 @@ export default function MainCarousel() {
 
   // Auto-scroll effect
   useEffect(() => {
-    if (loading || images.length <= 1 || isPaused) return;
+   // if (loading || images.length <= 1 || isPaused) return;
 
-    const interval = setInterval(nextSlide, 8000);
-    return () => clearInterval(interval);
+   // const interval = setInterval(nextSlide, 8000);
+    //return () => clearInterval(interval);
   }, [loading, images.length, isPaused, nextSlide]);
 
   if (loading || images.length === 0) return null;
