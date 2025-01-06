@@ -13,6 +13,11 @@ export default function MainCarousel() {
   const { images, loading } = useCarouselImages();
   const { user } = useAuth();
 
+    // Add this useEffect to log the fetched images
+    useEffect(() => {
+      console.log('Fetched images:', images);
+    }, [images]);
+
   const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % images.length);
   }, [images.length]);
