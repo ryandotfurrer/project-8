@@ -53,7 +53,7 @@ export default function AboutUs() {
             <p className="text-gray-500 dark:text-gray-300 mb-4">Platform Evangelist</p>
             <p className="text-gray-600 dark:text-gray-400 mb-4">As a platform evangelist, Lucca builds vibrant engineering communities and champions emerging technologies that push boundaries.</p>
             <div className="flex space-x-4">
-              <a href="https://twitter.com/ximenacruz" className="text-blue-500">Twitter</a>
+              <a href="https://x.com/luccawashere_" className="text-blue-500">Twitter</a>
               <a href="https://www.linkedin.com/in/luccacamargo/" className="text-blue-500">LinkedIn</a>
             </div>
           </div>

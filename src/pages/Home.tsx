@@ -10,13 +10,13 @@ export default function Home() {
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-gray-900 mb-4">Welcome Home!</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Hey friend, we want to be your 'home base' throughout your career journey. We understand that your professional path can sometimes feel isolating or challenging, but that's why we're here. Our community supports you through the difficult moments and celebrates your successes.
+          Hey friend, we want to be your "home base" throughout your career journey. We understand that your professional path can sometimes feel isolating or challenging, but that's why we're here. Our community supports you through the difficult moments and celebrates your successes.
         </p>
           <div className="my-16">
             <MainCarousel />
           </div>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          That's why we say "Welcome Home" – because we're creating a space where you can always turn for support. Please don't hesitate to reach out if you need anything. We're glad you're here!
+          That's why we say <b>"Welcome Home."</b>  We're creating a space where you can always turn for support. Please don't hesitate to reach out if you need anything. We're glad you're here!
           Welcome home!
         </p>
       </div>
