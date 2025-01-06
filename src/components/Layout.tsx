@@ -1,4 +1,3 @@
-import { Users } from 'lucide-react';
 import { Link, Outlet } from 'react-router-dom';
 import Footer from './Footer';
 import ThemeToggle from './ThemeToggle';
@@ -10,7 +9,7 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center space-x-4">
-              <Users className="w-10 h-10 text-indigo-600 dark:text-indigo-400" />
+            <img src="android-chrome-512x512.png"alt="User Icon" className="w-12 h-12" />
               <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Torc Community Team</h1>
             </Link>
             <ThemeToggle />

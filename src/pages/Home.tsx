@@ -2,6 +2,7 @@ import WeeklyCalendar from '../components/WeeklyCalendar';
 import QuickLinks from '../components/QuickLinks';
 import GetInvolved from '../components/GetInvolved';
 import MainCarousel from '../components/carousel/MainCarousel';
+import TheTeam from '../components/TheTeam';
 
 export default function Home() {
   return (
@@ -9,14 +10,23 @@ export default function Home() {
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-gray-900 mb-4">Welcome Home!</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          We're excited to have you as part of our growing community. Here you'll find all the
-          resources and information you need to stay connected.
+          Hey friend, we want to be your 'home base' throughout your career journey. We understand that your professional path can sometimes feel isolating or challenging, but that's why we're here. Our community supports you through the difficult moments and celebrates your successes.
+        </p>
+          <div className="my-16">
+            <MainCarousel />
+          </div>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          That's why we say "Welcome Home" – because we're creating a space where you can always turn for support. Please don't hesitate to reach out if you need anything. We're glad you're here!
+          Welcome home!
         </p>
       </div>
-
-      <div className="mb-16">
-        <MainCarousel />
-      </div>
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold text-gray-800 mb-6">Torc Community Team</h2>
+        <p className="text-gray-600 mb-8">
+          Meet your new friends
+        </p>
+        <TheTeam />
+      </section>
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Upcoming Events</h2>

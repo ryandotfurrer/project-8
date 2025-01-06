@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Globe, Users, Megaphone } from 'lucide-react';
 
 export default function AmbassadorProgram() {

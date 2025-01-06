@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Target, BookOpen, Award } from 'lucide-react';
 
 export default function MentorshipProgram() {
