@@ -9,6 +9,20 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-gray-900 mb-4">Welcome Home!</h2>
+
+        {/* RSS Ticker */}
+        <div style={{ position: 'relative', width: '100%', height: '50px', overflow: 'hidden' }}> {/* Set a fixed height and hide overflow */}
+          <iframe
+            src="https://rss.app/embed/v1/ticker/yVNdgL3YxmVflzqi" 
+            frameBorder="0"
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+            title="RSS Ticker"
+            scrolling="no" // Disable scrolling
+          ></iframe>
+        </div>
+
+        
+
         <div className="my-11">
             <MainCarousel />
           </div>
