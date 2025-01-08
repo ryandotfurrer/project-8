@@ -27,7 +27,7 @@ export default function Home() {
             <MainCarousel />
           </div>
       <p className="text-xl text-gray-600 max-w-2xl mx-auto text-left mb-2">
-      Hey friends! Think of us as your "home base" for your career journey. We know the path can be tough and sometimes lonely, but that’s why we’re here, to have your back in the hard times and cheer you on in the good ones.💛
+      Hey friends! Think of the <a href="https://torc.dev" target="_blank" rel="noopener noreferrer" className="text-blue-700">Torc community</a>  as your "home base" for your career journey. We know the path can be tough and sometimes lonely, but that’s why we’re here, to have your back in the hard times and cheer you on in the good ones.💛
       </p>
 
       <p className="text-xl text-gray-600 max-w-2xl mx-auto text-left mb-2">
