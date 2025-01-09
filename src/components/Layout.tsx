@@ -1,10 +1,12 @@
 import { Link, Outlet } from 'react-router-dom';
 import Footer from './Footer';
 import ThemeToggle from './ThemeToggle';
+import TopBanner from './TopBanner';
 
 export default function Layout() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors">
+      <TopBanner /> {/* Add the TopBanner component here */}
       <header className="bg-white dark:bg-gray-800 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex justify-between items-center">

@@ -52,9 +52,11 @@ export default function AmbassadorProgram() {
         </section>
 
         <div className="text-center">
-          <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
-            Apply to be an Ambassador
-          </button>
+          <a href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">
+            <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+              Apply to be an Ambassador
+            </button>
+          </a>
         </div>
       </div>
     </div>
