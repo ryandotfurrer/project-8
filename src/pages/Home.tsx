@@ -21,8 +21,6 @@ export default function Home() {
           ></iframe>
         </div>
 
-        
-
         <div className="my-11">
             <MainCarousel />
           </div>
