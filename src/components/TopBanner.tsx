@@ -1,7 +1,10 @@
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 const TopBanner: React.FC = () => {
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
     return (
         <div
             style={{
@@ -24,7 +27,7 @@ const TopBanner: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
-                        color: '#333',
+                        color: isDarkMode ? '#fff' : '#000',
                         textDecoration: 'none',
                     }}
                 >
@@ -38,7 +41,7 @@ const TopBanner: React.FC = () => {
                         border: 'none',
                         cursor: 'pointer',
                         marginLeft: '10px',
-                        color: '#333',
+                        color: isDarkMode ? '#fff' : '#000',
                     }}
                     aria-label="close discord message">
                 </button>
