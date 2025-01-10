@@ -12,7 +12,7 @@ export default function ThemeToggle() {
     >
       {theme === 'light' ? (
                <img 
-               src="/assets/chip.png" 
+               src="https://postimg.cc/R3sSv1dT" 
                alt="easter egg" 
                className="w-10 h-10 text-gray-800 dark:text-gray-200" 
              />
