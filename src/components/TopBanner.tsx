@@ -4,17 +4,20 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 const TopBanner: React.FC = () => {
   return (
-    <div className="bg-background relative text-balance px-2 py-5 text-center text-sm shadow dark:shadow-none">
-      <a
-        href="https://discord.gg/A8Th9g8TaY"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-foreground text-decoration-none"
-      >
-        <span>We are having lots of fun on </span>
+    <div className="text-muted-foreground text-balance px-2 py-5 text-sm">
+      <span className="flex items-center justify-center gap-1">
+        We are having lots of fun on
         <FontAwesomeIcon className="size-4" icon={faDiscord} />
-        <span> Discord. Come and join us!</span>
-      </a>
+        Discord -
+        <a
+          href="https://discord.gg/A8Th9g8TaY"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-foreground text-decoration-none animate-pulse text-indigo-600 hover:animate-none hover:underline dark:text-indigo-500"
+        >
+          Come and join us!
+        </a>
+      </span>
     </div>
   );
 };

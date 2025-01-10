@@ -82,7 +82,7 @@
   h4,
   h5,
   h6 {
-    @apply text-foreground text-balance font-bold leading-tight tracking-tight;
+    @apply text-foreground text-balance font-bold leading-none tracking-tight;
   }
 
   h1 {

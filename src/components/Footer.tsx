@@ -1,19 +1,15 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+    <footer className="bg-foreground text-muted rounded-t-lg py-8 text-sm">
+      <div className="mx-auto px-4">
+        <div className="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-0">
           <p>
             &copy; {new Date().getFullYear()}{' '}
             <a href="https://torc.dev" target="_blank" rel="noopener noreferrer">
               torc.dev
             </a>
           </p>
-          </div>
-          <div className="text-sm">
-            <p>Built by Jason Torres</p>
-          </div>
+          <p>Built by Jason Torres</p>
         </div>
       </div>
     </footer>
