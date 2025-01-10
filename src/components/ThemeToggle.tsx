@@ -5,20 +5,16 @@ export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <button
-      onClick={toggleTheme}
-      className="p-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-      aria-label="Toggle theme"
-    >
+    <button onClick={toggleTheme} className="hover:bg-muted rounded-lg p-2" aria-label="Toggle theme">
       {theme === 'light' ? (
-        <Moon className="w-5 h-5 text-gray-800 dark:text-gray-200" />
+        <Moon className="text-foreground size-5" />
       ) : (
-        <img 
-        src="https://i.postimg.cc/3R7dCnDz/chip.png" 
-        alt="easter egg" 
-        className="w-10 h-10 text-gray-800 dark:text-gray-200" 
-        onError={(e) => e.currentTarget.src = 'https://i.postimg.cc/3R7dCnDz/chip.png'} 
-      />
+        <img
+          src="https://i.postimg.cc/3R7dCnDz/chip.png"
+          alt="easter egg"
+          className="bg-muted-foreground/40 hover:bg-muted-foreground/50 size-10 rounded-lg"
+          onError={(e) => (e.currentTarget.src = 'https://i.postimg.cc/3R7dCnDz/chip.png')}
+        />
       )}
     </button>
   );

@@ -5,7 +5,7 @@ import TopBanner from './TopBanner';
 
 export default function Layout() {
   return (
-    <div className="bg-background dark:dark text-foreground-muted min-h-screen text-pretty">
+    <div className="bg-background dark:dark text-foreground-muted min-h-screen text-pretty font-normal">
       <TopBanner />
       <header className="bg-background dark:bg-muted shadow-sm dark:shadow-none">
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
