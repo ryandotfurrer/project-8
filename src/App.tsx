@@ -6,7 +6,7 @@ import FAQ from './pages/FAQ';
 import MentorshipProgram from './pages/MentorshipProgram';
 import AmbassadorProgram from './pages/AmbassadorProgram';
 import AboutUs from './pages/AboutUs';
-import { Analytics } from '@vercel/analytics/next';
+
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
           <Route path="mentorship" element={<MentorshipProgram />} />
           <Route path="ambassador" element={<AmbassadorProgram />} />
           <Route path="aboutus" element={<AboutUs />} />
-          <Analytics/>
         </Route>
       </Routes>
     </BrowserRouter>
