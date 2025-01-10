@@ -4,10 +4,10 @@ import { Users, MessageSquare } from 'lucide-react';
 const GetInvolved = () => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Get Involved</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-4">Get Involved</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Community Projects</h3>
+          <h3 className="text-xl font-semibold text-gray-800">Community Projects</h3>
           <ul className="space-y-4">
             <li>
               <Link to="/mentorship" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -30,7 +30,7 @@ const GetInvolved = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Discussion Forums</h3>
+          <h3 className="text-xl font-semibold text-gray-800">Discussion Forums</h3>
           <ul className="space-y-4">
             <li>
               <a href="https://discord.gg/8N3PZu8yE3" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
