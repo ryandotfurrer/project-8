@@ -11,7 +11,11 @@ export default function ThemeToggle() {
       aria-label="Toggle theme"
     >
       {theme === 'light' ? (
-        <Moon className="w-5 h-5 text-gray-800 dark:text-gray-200" />
+               <img 
+               src="/assets/chip.png" 
+               alt="easter egg" 
+               className="w-10 h-10 text-gray-800 dark:text-gray-200" 
+             />
       ) : (
         <Sun className="w-5 h-5 text-gray-800 dark:text-gray-200" />
       )}
