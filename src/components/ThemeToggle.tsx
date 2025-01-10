@@ -12,7 +12,7 @@ export default function ThemeToggle() {
         <img
           src="https://i.postimg.cc/3R7dCnDz/chip.png"
           alt="easter egg"
-          className="bg-muted-foreground/40 hover:bg-muted-foreground/50 size-10 rounded-lg"
+          className="bg-muted-foreground/40 hover:bg-muted-foreground size-10 rounded-lg"
           onError={(e) => (e.currentTarget.src = 'https://i.postimg.cc/3R7dCnDz/chip.png')}
         />
       )}
