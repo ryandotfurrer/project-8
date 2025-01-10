@@ -20,7 +20,7 @@ export default function Home() {
             scrolling="no" // Disable scrolling
           ></iframe>
         </div>
-
+        
         <div className="my-11">
             <MainCarousel />
           </div>

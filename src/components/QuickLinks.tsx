@@ -32,19 +32,19 @@ const QuickLinks = () => {
         <h3 className="text-xl font-semibold text-gray-800 mb-4">Connect With Us</h3>
         <ul className="space-y-2">
           <li>
-            <a href="#" className="flex items-center text-gray-600 hover:text-indigo-600">
+            <a href="https://www.linkedin.com/company/opentorc" className="flex items-center text-gray-600 hover:text-indigo-600">
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
             </a>
           </li>
           <li>
-            <a href="#" className="flex items-center text-gray-600 hover:text-indigo-600">
+            <a href="https://x.com/torcdotdev" className="flex items-center text-gray-600 hover:text-indigo-600">
               <Twitter className="w-5 h-5 mr-2" />
               Twitter (X)
             </a>
           </li>
           <li>
-            <a href="#" className="flex items-center text-gray-600 hover:text-indigo-600">
+            <a href="https://taylordesseyn.substack.com/" className="flex items-center text-gray-600 hover:text-indigo-600">
               <Mail className="w-5 h-5 mr-2" />
               Torc Newsletter
             </a>
