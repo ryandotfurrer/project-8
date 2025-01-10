@@ -2,8 +2,8 @@ import { Award, Globe, Users, Megaphone } from 'lucide-react';
 
 export default function AmbassadorProgram() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="bg-indigo-600 text-white py-16">
+    <div className="min-h-screen dark:bg-gray-900 transition-colors">
+      <div className="bg-indigo-600 text-white dark:text-gray-200 py-16">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">Ambassador Program</h1>
           <p className="text-xl opacity-90">Represent our community and help it grow</p>

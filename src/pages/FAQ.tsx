@@ -21,11 +21,11 @@ export default function FAQ() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen dark:bg-gray-900 transition-colors">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="flex items-center gap-3 mb-8">
           <HelpCircle className="w-8 h-8 text-indigo-600" />
-          <h1 className="text-4xl font-bold text-gray-900">Frequently Asked Questions</h1>
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-200">Frequently Asked Questions</h1>
         </div>
 
         <div className="space-y-6">
