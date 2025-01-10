@@ -56,9 +56,18 @@ export default function MentorshipProgram() {
         </section>
 
         <div className="text-center">
-          <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
-            Apply Now
-          </button>
+          <a href="https://tvbwr2u67vr.typeform.com/to/tRYtbwxZ" target="_blank" rel="noopener noreferrer">
+            <button className="bg-indigo-600 text-white px-8 py-3 my-8 rounded-lg hover:bg-indigo-700 transition-colors">
+              Apply to be a Mentee
+            </button>
+          </a>
+        </div>
+        <div className="text-center">
+          <a href="https://tvbwr2u67vr.typeform.com/to/eABIyDlq" target="_blank" rel="noopener noreferrer">
+            <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+              Apply to be a Mentor
+            </button>
+          </a>
         </div>
       </div>
     </div>
