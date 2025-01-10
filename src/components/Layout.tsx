@@ -5,14 +5,14 @@ import TopBanner from './TopBanner';
 
 export default function Layout() {
   return (
-    <div className="min-h-screen dark:bg-gray-900 transition-colors">
+    <div className="bg-background dark:dark text-foreground-muted min-h-screen">
       <TopBanner />
-      <header className="bg-white dark:bg-gray-800 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex justify-between items-center">
+      <header className="bg-background dark:bg-muted shadow-sm dark:shadow-none">
+        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center space-x-4">
-            <img src="https://i.postimg.cc/zbnD6HpG/android-chrome-512x512.png"alt="User Icon" className="w-12 h-12" />
-              <h1 className="text-3xl font-bold text-black dark:text-gray-100">Torc Community Team</h1>
+              <img src="https://i.postimg.cc/zbnD6HpG/android-chrome-512x512.png" alt="User Icon" className="size-12" />
+              <h1>Torc Community Team</h1>
             </Link>
             <ThemeToggle />
           </div>

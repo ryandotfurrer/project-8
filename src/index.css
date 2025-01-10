@@ -1,3 +1,106 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* white */
+    --foreground: 240 10% 3.9%; /* gray-950 */
+
+    --muted: 240 4.8% 95.9%; /* gray-100 */
+    --muted-foreground: 240 3.8% 46.1%; /* gray-500 */
+
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 240 10% 3.9%; /* gray-950 */
+
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 240 10% 3.9%; /* gray-950 */
+
+    --border: 240 5.9% 90%; /* gray-200 */
+    --input: 240 5.9% 90%; /* gray-200 */
+
+    --primary: 240 5.9% 10%; /* gray-900 */
+    --primary-foreground: 0 0% 100%; /* white */
+
+    --secondary: 240 4.8% 95.9%; /* gray-100 */
+    --secondary-foreground: 240 5.9% 10%; /* gray-900 */
+
+    --accent: 240 4.8% 95.9%; /* gray-100 */
+    --accent-foreground: 240 5.9% 10%; /* gray-900 */
+
+    --destructive: 0 84.2% 60.2%; /* red-500 */
+    --destructive-foreground: 0 0% 100%; /* white */
+
+    --border: 216 12.2% 83.9%; /* gray-300 */
+    --outline: 216 12.2% 83.9%; /* gray-300 */
+    --ring: 240 5% 64.9%; /* gray-400 */
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%; /* gray-950 */
+    --foreground: 0 0% 100%; /* white */
+
+    --muted: 240 3.8% 14.9%; /* gray-800 */
+    --muted-foreground: 240 5% 64.9%; /* gray-400 */
+
+    --popover: 240 10% 3.9%; /* gray-950 */
+    --popover-foreground: 0 0% 100%; /* white */
+
+    --card: 240 10% 3.9%; /* gray-950 */
+    --card-foreground: 0 0% 100%; /* white */
+
+    --border: 240 3.7% 15.9%; /* gray-700 */
+    --input: 240 3.7% 15.9%; /* gray-700 */
+
+    --primary: 0 0% 100%; /* white */
+    --primary-foreground: 240 5.9% 10%; /* gray-900 */
+
+    --secondary: 240 3.7% 15.9%; /* gray-700 */
+    --secondary-foreground: 0 0% 100%; /* white */
+
+    --accent: 240 3.7% 15.9%; /* gray-700 */
+    --accent-foreground: 0 0% 100%; /* white */
+
+    --destructive: 0 62.8% 30.6%; /* red-900 */
+    --destructive-foreground: 0 85.7% 97.3%; /* red-50 */
+
+    --border: 240 3.7% 15.9%; /* gray-700 */
+    --outline: 240 3.7% 15.9%; /* gray-700 */
+    --ring: 240 3.7% 15.9%; /* gray-700 */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-foreground font-bold leading-tight tracking-tight;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-sm;
+  }
+}
