@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    min-width: 0; /* Prevent flexbox from breaking */
+  }
   :root {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;

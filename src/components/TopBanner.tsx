@@ -4,11 +4,9 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 const TopBanner: React.FC = () => {
   return (
-    <div className="text-muted-foreground text-balance px-2 py-5 text-sm">
-      <span className="flex items-center justify-center gap-1">
-        We are having lots of fun on
-        <FontAwesomeIcon className="size-4" icon={faDiscord} />
-        Discord -
+    <div className="text-muted-foreground text-balance px-2 py-5 text-center text-sm">
+      <p>
+        We are having lots of fun on <FontAwesomeIcon className="size-4" icon={faDiscord} /> Discord -{' '}
         <a
           href="https://discord.gg/A8Th9g8TaY"
           target="_blank"
@@ -17,7 +15,7 @@ const TopBanner: React.FC = () => {
         >
           Come and join us!
         </a>
-      </span>
+      </p>
     </div>
   );
 };
