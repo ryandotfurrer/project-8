@@ -27,7 +27,7 @@
     --border: 240 5.9% 90%; /* gray-200 */
     --input: 240 5.9% 90%; /* gray-200 */
 
-    --primary: 240 5.9% 10%; /* gray-900 */
+    --primary: 346.8 77.2% 49.8%; /* rose-600 */
     --primary-foreground: 0 0% 100%; /* white */
 
     --secondary: 240 4.8% 95.9%; /* gray-100 */
@@ -62,8 +62,8 @@
     --border: 240 3.7% 15.9%; /* gray-700 */
     --input: 240 3.7% 15.9%; /* gray-700 */
 
-    --primary: 0 0% 100%; /* white */
-    --primary-foreground: 240 5.9% 10%; /* gray-900 */
+    --primary: 349.7 89.2% 60.2%; /* rose-500 */
+    --primary-foreground: 240 10% 3.9%; /* gray-950 */
 
     --secondary: 240 3.7% 15.9%; /* gray-700 */
     --secondary-foreground: 0 0% 100%; /* white */
@@ -110,5 +110,9 @@
 
   h6 {
     @apply text-sm;
+  }
+
+  a {
+    @apply text-primary hover:text-primary/80;
   }
 }

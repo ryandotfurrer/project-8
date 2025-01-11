@@ -18,49 +18,46 @@ export default function AuthModal({ onSubmit, onCancel, mode, error }: AuthModal
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-xl max-w-md w-full space-y-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-secondary text-secondary-foreground w-full max-w-md space-y-4 rounded-lg p-8 shadow-xl dark:shadow-none"
+      >
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-gray-900">
-            {mode === 'login' ? 'Sign In' : 'Create Account'}
-          </h2>
+          <h2>{mode === 'login' ? 'Sign In' : 'Create Account'}</h2>
         </div>
 
-        {error && (
-          <div className="bg-red-50 text-red-600 p-3 rounded text-sm">
-            {error}
-          </div>
-        )}
+        {error && <div className="rounded bg-red-50 p-2 text-sm text-red-600">{error}</div>}
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="text-muted-foreground text-sm">
             Email
           </label>
-          <div className="mt-1 relative">
-            <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+          <div className="relative">
+            <Mail className="text-muted-foreground absolute left-2 top-1/2 size-5 -translate-y-1/2 transform" />
             <input
               type="email"
               id="email"
               value={email}
-              onChange={e => setEmail(e.target.value)}
-              className="pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              onChange={(e) => setEmail(e.target.value)}
+              className="border-muted-foreground dark:shadow-non focus:border-ring focus:ring-ring w-full rounded-md border bg-transparent py-2 pl-10 shadow-sm"
               required
             />
           </div>
         </div>
 
         <div>
-          <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="password" className="text-muted-foreground text-sm">
             Password
           </label>
-          <div className="mt-1 relative">
-            <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+          <div className="relative mt-1">
+            <Lock className="text-muted-foreground absolute left-2 top-1/2 size-5 -translate-y-1/2 transform" />
             <input
               type="password"
               id="password"
               value={password}
-              onChange={e => setPassword(e.target.value)}
-              className="pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              onChange={(e) => setPassword(e.target.value)}
+              className="border-muted-foreground dark:shadow-non focus:border-ring focus:ring-ring w-full rounded-md border bg-transparent py-2 pl-10 shadow-sm"
               required
             />
           </div>
@@ -70,13 +67,13 @@ export default function AuthModal({ onSubmit, onCancel, mode, error }: AuthModal
           <button
             type="button"
             onClick={onCancel}
-            className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
+            className="text-muted-foreground hover:text-foreground rounded-md px-4 py-2 text-sm font-bold underline transition-colors"
           >
             Cancel
           </button>
           <button
             type="submit"
-            className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-md border border-transparent px-4 py-2 text-sm font-bold transition-colors"
           >
             {mode === 'login' ? 'Sign In' : 'Create Account'}
           </button>
