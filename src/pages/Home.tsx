@@ -58,11 +58,11 @@ export default function Home() {
       <QuickLinks />
       <GetInvolved />
 
-      <section className="my-12 rounded-lg bg-white p-8 shadow-lg">
-        <h2 className="mb-4 text-2xl font-bold text-gray-800">Contact Information</h2>
-        <p className="">
+      <section className="bg-muted outline-border my-12 rounded-lg p-8 shadow-lg outline dark:shadow-none">
+        <h2 className="mb-2">Contact Information</h2>
+        <p>
           Need help? Reach out to our community team on{' '}
-          <a href="https://discord.gg/ZA8Gj95dbj" className="">
+          <a href="https://discord.gg/ZA8Gj95dbj" className="underline underline-offset-4">
             Discord
           </a>
         </p>

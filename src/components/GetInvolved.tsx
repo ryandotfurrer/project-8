@@ -3,51 +3,63 @@ import { Users, MessageSquare } from 'lucide-react';
 
 const GetInvolved = () => {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4">Get Involved</h2>
-      <div className="grid md:grid-cols-2 gap-8">
+    <div className="bg-muted outline-border rounded-lg p-6 shadow-lg outline dark:shadow-none">
+      <h2 className="mb-4">Get Involved</h2>
+      <div className="grid gap-8 md:grid-cols-2">
         <div>
-          <h3 className="text-xl font-semibold text-gray-800">Community Projects</h3>
+          <h3 className="mb-2">Community Projects</h3>
           <ul className="space-y-4">
             <li>
-              <Link to="/mentorship" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center mb-2">
-                  <Users className="w-5 h-5 text-indigo-600 mr-2" />
-                  <h4 className="font-semibold">Mentorship Program</h4>
+              <Link
+                to="/mentorship"
+                className="bg-background dark:shadow-non block rounded-lg p-4 shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-md dark:hover:outline"
+              >
+                <div className="mb-2 flex items-center">
+                  <Users className="text-primary mr-2 size-4" />
+                  <h4>Mentorship Program</h4>
                 </div>
-                <p className="text-gray-600 text-sm">Connect with experienced mentors in your field</p>
+                <p className="text-muted-foreground text-sm">Connect with experienced mentors in your field</p>
               </Link>
             </li>
             <li>
-              <Link to="/ambassador" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center mb-2">
-                  <Users className="w-5 h-5 text-indigo-600 mr-2" />
-                  <h4 className="font-semibold">Ambassador Program</h4>
+              <Link
+                to="/ambassador"
+                className="bg-background dark:shadow-non block rounded-lg p-4 shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-md dark:hover:outline"
+              >
+                <div className="mb-2 flex items-center">
+                  <Users className="text-primary mr-2 size-4" />
+                  <h4>Ambassador Program</h4>
                 </div>
-                <p className="text-gray-600 text-sm">Represent our community and help it grow</p>
+                <p className="text-muted-foreground text-sm">Represent our community and help it grow</p>
               </Link>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold text-gray-800">Discussion Forums</h3>
+          <h3 className="mb-2">Discussion Forums</h3>
           <ul className="space-y-4">
             <li>
-              <a href="https://discord.gg/8N3PZu8yE3" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center mb-2">
-                  <MessageSquare className="w-5 h-5 text-indigo-600 mr-2" />
-                  <h4 className="font-semibold">Technical Discussions</h4>
+              <a
+                href="https://discord.gg/8N3PZu8yE3"
+                className="bg-background dark:shadow-non block rounded-lg p-4 shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-md dark:hover:outline"
+              >
+                <div className="mb-2 flex items-center">
+                  <MessageSquare className="text-primary mr-2 size-4" />
+                  <h4>Technical Discussions</h4>
                 </div>
-                <p className="text-gray-600 text-sm">Share knowledge and solve problems together</p>
+                <p className="text-muted-foreground text-sm">Share knowledge and solve problems together</p>
               </a>
             </li>
             <li>
-              <a href="https://discord.gg/m4NnuZGpjj" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="flex items-center mb-2">
-                  <MessageSquare className="w-5 h-5 text-indigo-600 mr-2" />
-                  <h4 className="font-semibold">Career Development</h4>
+              <a
+                href="https://discord.gg/m4NnuZGpjj"
+                className="bg-background dark:shadow-non block rounded-lg p-4 shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-md dark:hover:outline"
+              >
+                <div className="mb-2 flex items-center">
+                  <MessageSquare className="text-primary mr-2 size-4" />
+                  <h4>Career Development</h4>
                 </div>
-                <p className="text-gray-600 text-sm">Discuss career growth and opportunities</p>
+                <p className="text-muted-foreground text-sm">Discuss career growth and opportunities</p>
               </a>
             </li>
           </ul>

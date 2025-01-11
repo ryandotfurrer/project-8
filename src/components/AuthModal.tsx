@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { Mail, Lock } from 'lucide-react';
+import React, { useState } from 'react';
 
 interface AuthModalProps {
   onSubmit: (email: string, password: string) => Promise<boolean>;
