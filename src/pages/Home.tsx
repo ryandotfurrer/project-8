@@ -26,7 +26,12 @@ export default function Home() {
         <section className="mx-auto max-w-xl space-y-4">
           <p>
             Hey friends! Think of the{' '}
-            <a href="https://torc.dev" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://torc.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4"
+            >
               Torc community
             </a>{' '}
             as your "home base" for your career journey. We know the path can be tough and sometimes lonely, but that’s
@@ -48,15 +53,19 @@ export default function Home() {
         <TheTeam />
       </section>
 
-      <section className="mb-12">
+      <section className="my-12">
         <div className="mb-8">
           <h2>Upcoming Events</h2>
           <p className="">View our calendar below to see all upcoming community events and activities.</p>
         </div>
         <WeeklyCalendar />
       </section>
-      <QuickLinks />
-      <GetInvolved />
+      <section className="my-12">
+        <QuickLinks />
+      </section>
+      <section className="my-12">
+        <GetInvolved />
+      </section>
 
       <section className="bg-muted outline-border my-12 rounded-lg p-8 shadow-lg outline dark:shadow-none">
         <h2 className="mb-2">Contact Information</h2>
