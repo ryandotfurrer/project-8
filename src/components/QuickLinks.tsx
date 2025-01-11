@@ -3,55 +3,73 @@ import { BookOpen, MessageCircle, Linkedin, Mail, AtSign, Twitter } from 'lucide
 
 const QuickLinks = () => {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-8 my-12">
-    <div className="grid md:grid-cols-2 gap-8">
-      <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">Resources</h3>
-        <ul className="space-y-2">
-        <li>
-            <Link to="/aboutus" className="flex items-center text-gray-600 hover:text-indigo-600">
-              <AtSign className="w-5 h-5 mr-2" />
-              About Us
-            </Link>
-          </li>
-          <li>
-            <Link to="/guidelines" className="flex items-center text-gray-600 hover:text-indigo-600">
-              <BookOpen className="w-5 h-5 mr-2" />
-              Community Guidelines
-            </Link>
-          </li>
-          <li>
-            <Link to="/faq" className="flex items-center text-gray-600 hover:text-indigo-600">
-              <MessageCircle className="w-5 h-5 mr-2" />
-              FAQ
-            </Link>
-          </li>
-        </ul>
+    <div className="bg-muted outline-border my-12 rounded-lg p-8 shadow-lg outline dark:shadow-none">
+      <div className="grid gap-8 md:grid-cols-2">
+        <div className="space-y-4">
+          <h3>Resources</h3>
+          <ul className="space-y-2">
+            <li>
+              <Link
+                to="/aboutus"
+                className="text-foreground decoration-primary hover:decoration-primary/90 flex items-center underline underline-offset-4"
+              >
+                <AtSign className="text-muted-foreground mr-2 size-4" />
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/guidelines"
+                className="text-foreground decoration-primary hover:decoration-primary/90 flex items-center underline underline-offset-4"
+              >
+                <BookOpen className="text-muted-foreground mr-2 size-4" />
+                Community Guidelines
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/faq"
+                className="text-foreground decoration-primary hover:decoration-primary/90 flex items-center underline underline-offset-4"
+              >
+                <MessageCircle className="text-muted-foreground mr-2 size-4" />
+                FAQ
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="space-y-4">
+          <h3>Connect With Us</h3>
+          <ul className="space-y-2">
+            <li>
+              <a
+                href="https://www.linkedin.com/company/opentorc"
+                className="text-foreground decoration-primary hover:decoration-primary/90 flex items-center underline underline-offset-4"
+              >
+                <Linkedin className="text-muted-foreground mr-2 size-4" />
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/torcdotdev"
+                className="text-foreground decoration-primary hover:decoration-primary/90 flex items-center underline underline-offset-4"
+              >
+                <Twitter className="text-muted-foreground mr-2 size-4" />
+                Twitter (X)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://taylordesseyn.substack.com/"
+                className="text-foreground decoration-primary hover:decoration-primary/90 flex items-center underline underline-offset-4"
+              >
+                <Mail className="text-muted-foreground mr-2 size-4" />
+                Torc Newsletter
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="space-y-4">
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">Connect With Us</h3>
-        <ul className="space-y-2">
-          <li>
-            <a href="https://www.linkedin.com/company/opentorc" className="flex items-center text-gray-600 hover:text-indigo-600">
-              <Linkedin className="w-5 h-5 mr-2" />
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://x.com/torcdotdev" className="flex items-center text-gray-600 hover:text-indigo-600">
-              <Twitter className="w-5 h-5 mr-2" />
-              Twitter (X)
-            </a>
-          </li>
-          <li>
-            <a href="https://taylordesseyn.substack.com/" className="flex items-center text-gray-600 hover:text-indigo-600">
-              <Mail className="w-5 h-5 mr-2" />
-              Torc Newsletter
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
     </div>
   );
 };
